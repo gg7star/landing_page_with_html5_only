@@ -77,17 +77,21 @@ export default StyleSheet.create({
   'features sub-title': {
     color: '#2f9fe6',
     fontFamily: 'inherit',
-    marginTop: [{ unit: 'em', value: 0.285 }],
-    fontWeight: '400',
-    fontStyle: 'italic'
+    fontWeight: '400'
   },
   'signup-form btn': {
     background: '#2f9fe6',
-    color: '#ffffff'
+    color: '#ffffff',
+    width: [{ unit: '%H', value: 1 }],
+    minWidth: [{ unit: 'px', value: 274 }],
+    borderRadius: '50px'
   },
   'medias li btn': {
     background: '#2f9fe6',
-    color: '#ffffff'
+    color: '#ffffff',
+    width: [{ unit: '%H', value: 1 }],
+    minWidth: [{ unit: 'px', value: 274 }],
+    borderRadius: '50px'
   },
   'signup-form btn:hover': {
     background: '#1885ca'
@@ -181,7 +185,10 @@ export default StyleSheet.create({
     color: '#ffffff'
   },
   'wine features sub-title': {
-    color: '#ce2568'
+    color: '#ce2568',
+    margin: [{ unit: 'px', value: 0 }, { unit: 'px', value: 0 }, { unit: 'px', value: 10 }, { unit: 'px', value: 0 }],
+    fontFamily: 'inherit',
+    fontWeight: '400',
   },
   'wine signup-form btn': {
     background: '#ce2568',
