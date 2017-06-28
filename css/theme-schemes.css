@@ -1,10 +1,10 @@
 /*******************************************************
  *
- * Custom theme code schemes 
+ * Custom theme code schemes
  * Written by Themelize.me (http://themelize.me)
  *
  * Colour customisation example
- * 
+ *
  *******************************************************/
 /*******************************************************
  * Colours - blue is default so not defined
@@ -69,11 +69,18 @@ a {
 }
 .features .sub-title {
   color: #2f9fe6;
+  font-family: inherit;
+  margin-top: 0.285em;
+  font-weight: 400;
+  font-style: italic;
 }
 .signup-form .btn,
 .medias li .btn {
   background: #2f9fe6;
   color: #ffffff;
+  width: 100%;
+  min-width: 274px;
+  border-radius: 50px;
 }
 .signup-form .btn:hover,
 .medias li .btn:hover {
@@ -176,6 +183,10 @@ a {
 }
 .wine .features .sub-title {
   color: #ce2568;
+  margin: 0.285em 0 10px 0;
+  font-family: inherit;
+  font-weight: 400;
+  font-style: italic;
 }
 .wine .signup-form .btn {
   background: #ce2568;
