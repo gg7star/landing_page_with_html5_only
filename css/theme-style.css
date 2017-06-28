@@ -2,7 +2,7 @@
  *
  * Custom theme code styles
  * Written by Themelize.me (http://themelize.me)
- * 
+ *
  *******************************************************/
 .clearfix {
   *zoom: 1;
@@ -1539,7 +1539,7 @@ p {
 }
 #header .page-slogan {
   padding: 0;
-  margin: 0 0 5px 0;
+  margin: 33px 0 5px 0;
 }
 #header p {
   margin-top: 1em;
@@ -1595,7 +1595,10 @@ p {
   -webkit-box-shadow: 0 1px 20px #cccccc;
   -moz-box-shadow: 0 1px 20px #cccccc;
   box-shadow: 0 1px 20px #cccccc;
-  margin-bottom: 0;
+  display: inline-block;
+  text-align: center;
+  min-width: 274px;
+  border-radius: 50px;
 }
 .signup-form .muted {
   font-size: 90%;
@@ -1612,7 +1615,10 @@ p {
   line-height: 1;
 }
 .features .sub-title {
-  margin: 0 0 10px 0;
+  margin: 0.285em 0 10px 0;
+  font-family: inherit;
+  font-weight: 400;
+  font-style: italic;
 }
 .block {
   padding: 3em 0;
@@ -2049,7 +2055,9 @@ blockquote.right {
   width: 80%;
 }
 .row-fluid-70 {
-  width: 70%;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
 }
 .row-fluid-60 {
   width: 60%;
@@ -2958,19 +2966,19 @@ body.ipad-portrait .product-display-slideshow .flexslider {
   }
 }
 @media (max-width: 979px) {
-  
+
 }
 @media (min-width: 980px) {
-  
+
 }
 @media (min-width: 1200px) {
-  
+
 }
 @media (max-width: 979px) {
-  
+
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  
+
 }
 @media (max-width: 767px) {
   body {
@@ -3000,5 +3008,5 @@ body.ipad-portrait .product-display-slideshow .flexslider {
   }
 }
 @media (max-width: 480px) {
-  
+
 }
