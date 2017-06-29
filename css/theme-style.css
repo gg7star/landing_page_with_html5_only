@@ -1604,6 +1604,11 @@ p {
   font-size: 90%;
   margin: -5px 0 0 0;
 }
+.signup-form .info-title {
+  font-size: 46px;
+  letter-spacing: 2.12px;
+  font-weight: 600;
+}
 .features i {
   font-size: 42px;
   float: left;
