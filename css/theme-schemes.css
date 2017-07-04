@@ -71,6 +71,8 @@ a {
   color: #2f9fe6;
   font-family: inherit;
   font-weight: 400;
+  font-style: italic;
+  margin-top: 0.5em;
 }
 .signup-form .btn,
 .medias li .btn {
@@ -185,6 +187,8 @@ a {
   font-family: inherit;
   font-weight: 400;
   font-style: italic;
+  font-style: italic;
+  margin-top: 0.5em;
 }
 .wine .signup-form .btn {
   background: #ce2568;
